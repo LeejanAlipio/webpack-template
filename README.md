@@ -6,8 +6,10 @@ A simple Webpack starter template for building frontend projects quickly. It inc
 - Webpack configuration for development and production builds
 - HTML template support via HtmlWebpackPlugin
 - CSS loading with style-loader and css-loader
+- HTML loading with html-loader
 - Asset handling for images and other static files
-- Ready for a small JavaScript project structure
+- ESLint-ready configuration
+- Modern ES module-based Webpack config files
 
 ## Prerequisites
 Make sure you have the following installed:
@@ -33,7 +35,7 @@ npm install
 
 4. Start the development server:
 ```bash
-npm run start
+npm run dev
 ```
 
 5. Build for production:
@@ -41,12 +43,18 @@ npm run start
 npm run build
 ```
 
+## Available Scripts
+- `npm run dev` — start the development server with live reloading
+- `npm run build` — create a production build using `webpack.prod.js`
+
 ## Project Structure
 ```text
 webpack-template/
 ├── src/
 │   ├── index.html
-│   └── index.js
+│   ├── index.js
+│   └── styles/
+│       └── styles.css
 ├── webpack.common.js
 ├── webpack.dev.js
 ├── webpack.prod.js
