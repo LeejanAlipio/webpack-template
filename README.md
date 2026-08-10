@@ -3,6 +3,7 @@
 A simple Webpack starter template for building frontend projects quickly. It includes a basic development and production setup with HTML, CSS, and JavaScript support.
 
 ## Features
+
 - Webpack configuration for development and production builds
 - HTML template support via HtmlWebpackPlugin
 - CSS loading with style-loader and css-loader
@@ -12,42 +13,51 @@ A simple Webpack starter template for building frontend projects quickly. It inc
 - Modern ES module-based Webpack config files
 
 ## Prerequisites
+
 Make sure you have the following installed:
+
 - Node.js
 - npm
 
 ## Getting Started
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/LeejanAlipio/webpack-template.git
 ```
 
 2. Navigate into the project folder:
+
 ```bash
 cd webpack-template
 ```
 
 3. Install dependencies:
+
 ```bash
 npm install
 ```
 
 4. Start the development server:
+
 ```bash
 npm run dev
 ```
 
 5. Build for production:
+
 ```bash
 npm run build
 ```
 
 ## Available Scripts
+
 - `npm run dev` — start the development server with live reloading
 - `npm run build` — create a production build using `webpack.prod.js`
 
 ## Project Structure
+
 ```text
 webpack-template/
 ├── src/
@@ -63,4 +73,5 @@ webpack-template/
 ```
 
 ## Notes
+
 This template is a good starting point for small projects and can be expanded as needed for more advanced front-end builds.
