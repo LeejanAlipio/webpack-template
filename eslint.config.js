@@ -13,6 +13,7 @@ export default defineConfig([
     rules: {
       "semi": ["error", "always"],
       "prefer-const": "error",
+      eqeqeq: 'error',
     }
   }
 ]);
