@@ -1,16 +1,15 @@
 # Webpack Template
 
-A simple Webpack starter template for building frontend projects quickly. It includes a basic development and production setup with HTML, CSS, and JavaScript support.
+A lightweight Webpack starter template for building frontend projects quickly. It includes a simple development workflow, production build setup, and basic linting and formatting support.
 
 ## Features
 
-- Webpack configuration for development and production builds
-- HTML template support via HtmlWebpackPlugin
+- Development and production Webpack configurations
+- HTML generation with HtmlWebpackPlugin
 - CSS loading with style-loader and css-loader
 - HTML loading with html-loader
-- Asset handling for images and other static files
-- ESLint-ready configuration
-- Modern ES module-based Webpack config files
+- ES module-based Webpack config files
+- ESLint and Prettier support for consistent code quality
 
 ## Prerequisites
 
@@ -55,6 +54,22 @@ npm run build
 
 - `npm run dev` — start the development server with live reloading
 - `npm run build` — create a production build using `webpack.prod.js`
+- `npm run lint` — run ESLint across the project
+- `npm run lint:fix` — automatically fix ESLint issues where possible
+
+## Code Quality
+
+You can also check formatting with Prettier:
+
+```bash
+npx prettier --check .
+```
+
+To format files automatically:
+
+```bash
+npx prettier --write .
+```
 
 ## Project Structure
 
@@ -65,6 +80,8 @@ webpack-template/
 │   ├── index.js
 │   └── styles/
 │       └── styles.css
+├── .prettierrc
+├── eslint.config.js
 ├── webpack.common.js
 ├── webpack.dev.js
 ├── webpack.prod.js
@@ -74,4 +91,4 @@ webpack-template/
 
 ## Notes
 
-This template is a good starting point for small projects and can be expanded as needed for more advanced front-end builds.
+This template is a good starting point for small projects and can be expanded as needed for more advanced frontend builds.
