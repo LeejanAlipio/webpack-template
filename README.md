@@ -86,7 +86,7 @@ The template includes ESLint configured with rules for:
 webpack-template/
 ├── src/
 │   ├── index.html
-│   ├── index.js
+│   ├── main.js
 │   └── styles/
 │       └── styles.css
 ├── .prettierrc
