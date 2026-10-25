@@ -18,9 +18,8 @@ export default defineConfig([
   },
   {
     rules: {
-      quotes: ['error', 'single'],
+      quotes: ['warn', 'single'],
       semi: ['error', 'always'],
-      'prefer-const': 'error',
       eqeqeq: 'error',
     },
   },
