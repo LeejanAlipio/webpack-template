@@ -5,8 +5,8 @@ import eslintConfigPrettier from 'eslint-config-prettier/flat';
 
 export default defineConfig([
   globalIgnores([
-    '!node_modules/', // unignore `node_modules/` directory
-    'node_modules/*', // ignore its content
+    '!node_modules/',
+    'node_modules/*',
     'dist',
     'babel.config.js',
   ]),
